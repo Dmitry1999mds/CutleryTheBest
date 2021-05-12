@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "First name": "Дмитрий",
+      "Last name": "Мойсеёнок",
+      "mobile number": "",
+      "E-mail": "mds19991115dimon@mail.ru",
+      "House number, street, apartment number": "Широкая 12",
+      "City, state": "Минск",
+      "zip-code": "34234234",
+      "id": 2
+    },
+    {
+      "First name": "fgf",
+      "Last name": "dfgdfg",
+      "mobile number": "",
+      "E-mail": "",
+      "House number, street, apartment number": "",
+      "City, state": "",
+      "zip-code": "",
+      "id": 3
+    },
+    {
+      "First name": "Дмитрий",
+      "Last name": "Мойсеёнок",
+      "mobile number": "",
+      "E-mail": "mds19991115dimon@mail.ru",
+      "House number, street, apartment number": "Широкая 12",
+      "City, state": "Минск",
+      "zip-code": "34234234",
+      "id": 4
+    },
+    {
+      "First name": "Дмитрий",
+      "Last name": "Мойсеёнок",
+      "mobile number": "",
+      "E-mail": "mds19991115dimon@mail.ru",
+      "House number, street, apartment number": "Широкая 12",
+      "City, state": "Минск",
+      "zip-code": "34234234",
+      "id": 5
+    }
+  ],
+  "profile": {
+    "First name": "Дмитрий",
+    "Last name": "Мойсеёнок",
+    "mobile number": "",
+    "E-mail": "mds19991115dimon@mail.ru",
+    "House number, street, apartment number": "Широкая 12",
+    "City, state": "Минск",
+    "zip-code": "34234234"
+  }
+}
+

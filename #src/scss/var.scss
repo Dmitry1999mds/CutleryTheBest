@@ -1,0 +1,23 @@
+%titls{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 133px;
+    text-transform: uppercase;
+}
+%btn{
+    width:240px;
+    height:54px;
+    background: #426930;
+    border-radius: 5px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+$margin_desktop: 230px;
+$margin_ipad: 180px;
+$margin_mobile: 112px;

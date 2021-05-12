@@ -1,0 +1,80 @@
+.footer{
+    flex: 0 0 auto;
+    background-color: #426930;
+    margin-top: 230px;
+    padding:40px 0 40px 0;
+    &__container{
+        max-width: 1220px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    &__inner{
+        position: relative;
+    }
+    &__subtitles{
+        margin-left: 50px;
+    }
+    &__subtitles p,
+    &__btn,
+    &__policy-link,
+    &__btn,
+    &__freeshipping p{
+        color: #FFFFFF;
+    }
+    &__email{
+
+    }
+        &__email-link{
+            @extend %titls;
+            color: #FFFFFF;
+            text-decoration-line: underline 2px;
+            font-size: 97px;
+            line-height: 129px;
+            // max-width:1197px;
+        }
+    &__image{
+        width: 410px;
+        height: 300px;
+        transform: translate(194px, -40px);
+    }
+    &__btn{
+        position: absolute;
+        width: 155px;
+        height: 155px;
+        border: 1px solid #FFFFFF;
+        border-radius: 100px;
+        // float:right;
+        right: 0;
+        display: block;
+        transform: translateY(-150px);
+
+    }
+    &__btn:hover{
+        cursor:pointer;
+    }
+        &__btn-text{
+            transform: rotate(-15deg);
+        }
+    &__info{
+        display:flex;
+        justify-content:space-between;
+        border-top: 1px solid #FFFFFF;
+        padding-top: 10px;
+        margin-top: 71px
+    }
+        &__policy{
+            border-bottom: 1px solid #FFFFFF;
+        }
+            &__policy-link{
+                // text-decoration-line: underline;
+            }
+        &__freeshipping{
+
+        }
+            &__freeshipping p{
+
+            }
+        &__icons{
+
+        }
+}
