@@ -10,8 +10,6 @@ let path = {
         js:project_folder+"/js/",
         img:project_folder+"/img/",
         fonts:project_folder+"/fonts/",
-        php:project_folder+"/",
-        json:project_folder+"/",
         
     },
     src:{
@@ -20,8 +18,6 @@ let path = {
         js:source_folder+"/js/script.js",
         img:source_folder+"/img/**/*.{jpg,png,svg,gif,ico,webp}",
         fonts:source_folder+"/fonts/*.ttf",
-        php:source_folder+"/*php",
-        json:source_folder+"/*json",
     },
     watch:{
         html:source_folder+"/**/*.html",
@@ -29,8 +25,6 @@ let path = {
         js:source_folder+"/js/**/*.js",
         fonts:source_folder+"/fonts/*.ttf",
         img:source_folder+"/img/**/*.{jpg,png,svg,gif,ico,webp}",
-        php:source_folder+"/**/*.php",
-        json:source_folder+"/**/*.json",
 
     },
     clean:"./"+project_folder+"/"
@@ -204,8 +198,6 @@ function watchFiles(params){
     gulp.watch([path.watch.css], css);
     gulp.watch([path.watch.js], js);
     gulp.watch([path.watch.img], images);
-    gulp.watch([path.watch.php], php);
-    gulp.watch([path.watch.json], json);
 }
 
 function clean(){
@@ -214,7 +206,7 @@ function clean(){
 
 
 
-let build = gulp.series(clean, gulp.parallel(js, css, html, images, fonts, php, json), fontsStyle);
+let build = gulp.series(clean, gulp.parallel(js, css, html, images, fonts), fontsStyle);
 let watch = gulp.parallel(build, watchFiles, browserSync);
 
 exports.fontsStyle = fontsStyle;
